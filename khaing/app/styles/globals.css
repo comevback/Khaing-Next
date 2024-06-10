@@ -1,0 +1,65 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1; /* Takes up remaining space */
+  padding: 20px; /* Spacing around content */
+  margin-left: 300px;
+}
+
+.sidebar {
+  align-self: flex-start;
+  height: 100vh; /* Full height of the viewport */
+  width: 250px; /* Sidebar width */
+  position: fixed; /* Sticks the sidebar */
+  top: 0; /* Top of the viewport */
+  background-color: #8C7ACE; /* Primary color */
+  color: #8C7ACE; /* Text color */
+  padding: 20px; /* Spacing around text */
+  overflow: auto; /* Enables scrolling if content overflows */
+}
+
+.sidebar img {
+  width: 160px;  /* or your desired size */
+  height: 170px;  /* must be the same as width to maintain aspect ratio */
+  border-radius: 50%;  /* this creates the round shape */
+  display: block;  /* ensures it centers in the sidebar */
+  margin: 0 auto 20px;  /* centers the image horizontally and adds spacing below */
+  border: 3px solid white;  /* optional, adds a white border around the image */
+}
+
+#profilePic:hover{
+  background-color: #8C7ACE;
+}
+
+.sidebar ul{
+  padding-left: 1rem;
+}
+
+.sidebar li {
+  list-style-type: none; /* Removes bullet points */
+  margin-bottom: 0.8rem; /* Adds space between list items */
+}
+
+.sidebar a {
+  border-radius: 2px;
+  font-size: 1.1rem;
+  color:#ffffff; /* Text color for sidebar headings and links */
+  text-decoration: none; /* No underlines on links */
+  display: block; /* Makes links block level for easier clicking */
+  padding: 12px; /* Padding for touch targets */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.sidebar a:hover {
+  border-radius: 2px;
+  background-color: white; /* Darker shade for hover */
+  color: #8C7ACE;
+}
