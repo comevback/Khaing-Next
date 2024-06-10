@@ -9,7 +9,7 @@
     color: #8C7ACE;
 }
 
-.achievements{
+.awards{
     margin-top: 20px;
     gap: 5rem;
 }
@@ -17,7 +17,7 @@
 .list{
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 8px;
 }
 
 .highlight{

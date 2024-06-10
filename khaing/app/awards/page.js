@@ -1,9 +1,12 @@
+import styles from './awards.module.css';
+
 const Awards = () => {
     return (
-        <section id="honors">
-            <h2>Honors and Awards</h2>
-            <h3>Scholarships and Grants</h3>
-            <ul>
+        <section className={styles.awards}>
+            <h1 className={styles.title}>Honors and Awards</h1>
+            <h2 className={styles.subtitle}>Scholarships and Grants</h2>
+            <hr></hr>
+            <ul className={styles.list}>
                 <li>
                     Graduate School of Natural Science and Technology Student Encouragement Research Grant, Okayama University (2024.4)
                 </li>

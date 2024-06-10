@@ -1,6 +1,13 @@
-body{
+body {
   margin: 0;
   padding: 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: #333;
 }
 
 .layout {
@@ -9,57 +16,139 @@ body{
 }
 
 .main-content {
-  flex: 1; /* Takes up remaining space */
-  padding: 20px; /* Spacing around content */
+  flex: 1;
+  /* Takes up remaining space */
+  padding: 20px;
+  /* Spacing around content */
   margin-left: 300px;
 }
 
 .sidebar {
   align-self: flex-start;
-  height: 100vh; /* Full height of the viewport */
-  width: 250px; /* Sidebar width */
-  position: fixed; /* Sticks the sidebar */
-  top: 0; /* Top of the viewport */
-  background-color: #8C7ACE; /* Primary color */
-  color: #8C7ACE; /* Text color */
-  padding: 20px; /* Spacing around text */
-  overflow: auto; /* Enables scrolling if content overflows */
+  height: 100vh;
+  /* Full height of the viewport */
+  width: 250px;
+  /* Sidebar width */
+  position: fixed;
+  /* Sticks the sidebar */
+  top: 0;
+  /* Top of the viewport */
+  background-color: #8c7ace;
+  /* Primary color */
+  color: #8c7ace;
+  /* Text color */
+  padding: 20px;
+  /* Spacing around text */
+  overflow: auto;
+  /* Enables scrolling if content overflows */
 }
 
 .sidebar img {
-  width: 160px;  /* or your desired size */
-  height: 170px;  /* must be the same as width to maintain aspect ratio */
-  border-radius: 50%;  /* this creates the round shape */
-  display: block;  /* ensures it centers in the sidebar */
-  margin: 0 auto 20px;  /* centers the image horizontally and adds spacing below */
-  border: 3px solid white;  /* optional, adds a white border around the image */
+  width: 160px;
+  /* or your desired size */
+  height: 170px;
+  /* must be the same as width to maintain aspect ratio */
+  border-radius: 50%;
+  /* this creates the round shape */
+  display: block;
+  /* ensures it centers in the sidebar */
+  margin: 0 auto 20px;
+  /* centers the image horizontally and adds spacing below */
+  border: 3px solid white;
+  /* optional, adds a white border around the image */
 }
 
-#profilePic:hover{
-  background-color: #8C7ACE;
+.sidebar img:hover {
+  box-shadow: #333 0px 0px 20px;
 }
 
-.sidebar ul{
+#profilePic:hover {
+  background-color: #8c7ace;
+  box-shadow: #333 0px 0px 0px;
+}
+
+.sidebar ul {
   padding-left: 1rem;
 }
 
 .sidebar li {
-  list-style-type: none; /* Removes bullet points */
-  margin-bottom: 0.8rem; /* Adds space between list items */
+  list-style-type: none;
+  /* Removes bullet points */
+  margin-bottom: 0.8rem;
+  /* Adds space between list items */
 }
 
 .sidebar a {
   border-radius: 2px;
   font-size: 1.1rem;
-  color:#ffffff; /* Text color for sidebar headings and links */
-  text-decoration: none; /* No underlines on links */
-  display: block; /* Makes links block level for easier clicking */
-  padding: 12px; /* Padding for touch targets */
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  color: #ffffff;
+  /* Text color for sidebar headings and links */
+  text-decoration: none;
+  /* No underlines on links */
+  display: block;
+  /* Makes links block level for easier clicking */
+  padding: 12px;
+  /* Padding for touch targets */
+  transition: background-color 0.3s;
+  /* Smooth transition for hover effect */
 }
 
 .sidebar a:hover {
   border-radius: 2px;
-  background-color: white; /* Darker shade for hover */
-  color: #8C7ACE;
+  background-color: rgb(255, 255, 255);
+  /* Darker shade for hover */
+  color: #8c7ace;
+  box-shadow: #333 0px 0px 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.basicInfo {
+  line-height: 1.6;
+}
+
+.name {
+  color: #8c7ace;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #8c7ace;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #8c7ace;
+}
+
+#education {
+  margin-top: 20px;
+}
+
+.education-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.education-content .school {
+  width: 400px;
+  font-weight: bold;
+}
+
+.education-content .major {
+  width: 400px;
+}
+
+.education-content .date {
+  width: 200px;
+  text-align: left;
 }

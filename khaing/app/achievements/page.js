@@ -4,9 +4,9 @@ const Achievements = () => {
     return (
         <section className={styles.achievements}>
             <h1 className={styles.title}>Research Achievements</h1>
-            
-            <hr></hr>
+
             <h2 className={styles.subtitle}>Journal</h2>
+            <hr></hr>
             <ul className={styles.list}>
                 <li>
                     <span className={styles.highlight}>Khaing Hsu Wai</span>, Nobuo Funabiki, Soe Thandar Aung, Xiqin Lu, Yanhui Jing, Htoo Htoo Sandi Kyaw, and Wen-Chung Kao, 
@@ -48,8 +48,8 @@ const Achievements = () => {
                 </li>
             </ul>
 
-            <hr></hr>
             <h2 className={styles.subtitle}>International Conference</h2>
+            <hr></hr>
             <ul className={styles.list}>
                 <li>
                     <span className={styles.highlight}>Khaing Hsu Wai</span>, Nobuo Funabiki, Soe Thandar Aung, Ryo Hashimoto, Daiki Yokoyama, Wen-Chung Kao, “Analysis of solution results of code writing problems for basic object-oriented programming study in university Java programming course,” 2024 12th International Conference on Information and Education Technology (ICIET), pp. 87-92, March 18-20, 2024. (Yamaguchi International Trade & Cultural Center (Kaikyo Messe Shimonoseki), Yamaguchi, Japan) 
@@ -101,8 +101,8 @@ const Achievements = () => {
                 </li>
             </ul>
 
-            <hr></hr>
             <h2 className={styles.subtitle}>List of Presentations</h2>
+            <hr></hr>
             <ul className={styles.list}>
                 <li>
                     <span className={styles.highlight}>Khaing Hsu Wai</span>, Nobuo Funabiki, Soe Thandar Aung, Ryo Hashimoto, Daiki Yokoyama, Wen-Chung Kao, “Analysis of solution results of code writing problems for basic object-oriented programming study in university Java programming course,” 2024 12th International Conference on Information and Education Technology (ICIET), Yamaguchi, Japan. (March 19, 2024)
@@ -140,8 +140,8 @@ const Achievements = () => {
                 </li>
             </ul>
 
-            <hr></hr>
             <h2 className={styles.subtitle}>Thesis</h2>
+            <hr></hr>
             <ul className={styles.list}>
                 <li>
                     Diagnosis of Gout Disease Using Decision Tree Method
