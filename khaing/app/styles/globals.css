@@ -10,6 +10,10 @@ hr {
   background: #333;
 }
 
+a{
+  text-decoration: none;  /* Removes the underline */
+}
+
 .layout {
   display: flex;
   min-height: 100vh;
@@ -59,7 +63,7 @@ hr {
 }
 
 .sidebar img:hover {
-  box-shadow: #333 0px 0px 20px;
+  box-shadow: #000000 0px 0px 20px;
 }
 
 #profilePic:hover {
@@ -139,16 +143,17 @@ hr {
   align-items: flex-start;
 }
 
-.education-content .school {
-  width: 400px;
-  font-weight: bold;
-}
 
 .education-content .major {
-  width: 400px;
+  flex: 2;
+}
+
+.education-content .school {
+  flex: 3;
 }
 
 .education-content .date {
-  width: 200px;
+  width: 100px;
+  flex: 1;
   text-align: left;
 }

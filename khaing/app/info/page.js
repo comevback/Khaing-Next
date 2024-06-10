@@ -5,7 +5,7 @@ const Info = () => {
                 <h1 className="name">Khaing Hsu Wai (ခိုင်ဆုဝေ) (カイン)</h1>
                 <p>
                     {`Hello! I am Khaing Hsu Wai (カイン), a silly but hardworking Ph.D candidate at`}
-                    <a href="https://www.okayama-u.ac.jp" target="_blank" rel="noopener noreferrer"> Okayama University </a> 
+                    <a href="https://www.okayama-u.ac.jp" target="_blank" rel="noopener noreferrer"> Okayama University </a>
                     {`under`}
                     <a href="https://www.cc.okayama-u.ac.jp/~eng_dist/index_eng.html" target="_blank" rel="noopener noreferrer"> Funabiki Lab </a>.
                     {`I am also a member of Language Understanding (LU) Lab under`}
@@ -14,13 +14,8 @@ const Info = () => {
                 <p>
                     {`Currently, my research is focused on Programming Learning Assistant System,
                     to support the programming education for the novice students and creative text generation for low-resource languages.
-                    My research interests focus on:`}
+                    My research interests focus on: Educational Technology, Natural Language Processing, and Machine Learning.`}
                 </p>
-                <ul>
-                    <li>Educational Technology</li>
-                    <li>Machine Learning</li>
-                    <li>Natural Language Processing</li>
-                </ul>
                 <p>
                     {`You can have a look at my research publication`}
                     <a href="achievements"> here </a>.
@@ -36,9 +31,21 @@ const Info = () => {
                 <h2 className="subtitle">Education</h2>
                 <hr />
                 <div className="education-content">
-                    <p className="school">University of Computer Studies, Mandalay</p>
-                    <p className="major">Bachelor of Computer Science</p>
-                    <p className="date">2018 - 2022</p>
+                    <p className="major">Doctor of Philosophy in Engineering</p>
+                    <p className="school">Graduate School of Natural Science and Technology, Okayama University</p>
+                    <p className="date">2021/10 - 2024/9 (Expect)</p>
+                </div>
+
+                <div className="education-content">
+                    <p className="major">Master of Engineering (Information Science and Technology)</p>
+                    <p className="school">Faculty of Information Science and Technology, University of Technology (Yatanarpon Cyber City)</p>
+                    <p className="date">2017/05 - 2020/01</p>
+                </div>
+
+                <div className="education-content">
+                    <p className="major">Bachelor of Engineering (Information Science and Technology)</p>
+                    <p className="school">Faculty of Information Science and Technology, University of Technology (Yatanarpon Cyber City)</p>
+                    <p className="date">2011/11 - 2016/11</p>
                 </div>
             </section>
 
